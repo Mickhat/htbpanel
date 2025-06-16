@@ -49,6 +49,17 @@ $ python -m htbpanel
 
 From there, you can browse, manage, and interact with HTB machines right in your terminal.
 
+### Discord Bot
+
+You can also run HTBPanel as a Discord bot using slash commands:
+
+1. Copy `.env.example` to `.env` and fill in your `DISCORD_TOKEN` and `HTB_KEY`.
+2. Start the bot with:
+
+```bash
+$ python -m htbpanel.bot
+```
+
 ---
 
 ## 🙌 Contributing
